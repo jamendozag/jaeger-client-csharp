@@ -7,7 +7,7 @@ namespace Jaeger
     /// <summary>
     /// Represents a unique 64bit identifier of a span.
     /// </summary>
-    public readonly struct SpanId
+    public struct SpanId
     {
         private long Id { get; }
 

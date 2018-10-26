@@ -7,7 +7,7 @@ namespace Jaeger
     /// <summary>
     /// Represents a unique 128bit identifier of a trace.
     /// </summary>
-    public readonly struct TraceId
+    public struct TraceId
     {
         public long High { get; }
         public long Low { get; }
